@@ -17,8 +17,20 @@ export const AdvertisingBanner = () => (
             </button>
             <p className={styles.behindText}>KIRIN</p>
         </article>
-        <CommentsOnAdvertisements stylesProps={styles.gharantip} title="ГАРАНТИЯ 1 ГОД" text="на весь ассортимент" />
-        <CommentsOnAdvertisements stylesProps={styles.installmentPlan} title="РАССРОЧКА" text="от 6 месяцев" />
-        <CommentsOnAdvertisements stylesProps={styles.present} title="ПОДАРКИ" text="и бонусам к покупкам" />
+        <div className={styles.detailsBlock}>
+            <div>
+                <h4>ГАРАНТИЯ 1 ГОД</h4>
+                <p>на весь ассортимент</p>
+            </div>
+            <div>
+                <h4>РАССРОЧКА</h4>
+                <p>от 6 месяцев</p>
+            </div>
+            <div>
+                <h4>ПОДАРКИ</h4>
+                <p>и бонусам к покупкам</p>
+            </div>
+        </div>
+
     </>
 )

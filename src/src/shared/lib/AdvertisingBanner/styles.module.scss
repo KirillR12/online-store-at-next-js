@@ -16,27 +16,6 @@ top: 230px;
 z-index: 9;
 }
 
-.gharantip {
-position: absolute;
-width: 300px;
-left: 165px;
-top: 675px;
-}
-
-.installmentPlan {
-position: absolute;
-width: 300px;
-left: 449px;
-top: 675px;
-}
-
-.present {
-position: absolute;
-width: 300px;
-left: 735px;
-top: 675px;
-}
-
 .articleTitle {
     position: absolute;
     width: 633px;
@@ -86,4 +65,12 @@ opacity: 23%;
 font-size: 293px;
 font-weight: 700;
 line-height: 424px;
+}
+
+.detailsBlock {
+    margin-left: 165px;
+    margin-top: 30px;
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
 }
