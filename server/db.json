@@ -1,0 +1,92 @@
+{
+    "scooters": [
+{
+    "id": "1",
+    "status": "new",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://sc04.alicdn.com/kf/Ha66f215feb7c432cbd7e735df6079007H.png"
+},
+{
+    "id": "2",
+    "status": "hit",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "3",
+    "status": "new",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "4",
+    "status": "hit",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "5",
+    "status": "new",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "6",
+    "status": "hit",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "7",
+    "status": "new",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+},
+{
+    "id": "8",
+    "status": "hit",
+    "name": "Kugoo Kirin M4",
+    "price": 39990,
+    "speed": 60,
+    "battery": 2000,
+    "power": 1.2,
+    "times": 300,
+    "image": "https://nsk.service-kugoo.ru/_content/datasets/632afe69b8075-31a9ab4a1dfc59d8ce624fd2df67ab1c.png"
+}
+    ]
+}

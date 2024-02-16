@@ -1,0 +1,131 @@
+.Footer {
+    height: 488px;
+    background-color: #F4F7FB;
+    padding: 0 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.upperContent {
+height: 97px;
+background: #6F73EE;
+padding: 0 165px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.inputFooter {
+width: 410px;
+height: 53px;
+border-radius: 5px;
+border: none;
+background-color: rgb(255, 255, 255, 0.2);
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+}
+
+.footerBlockLeft {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    height: 170px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footerBlockCenter {
+    width: 290px;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blockCenterContentColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blockCenterContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerContent {
+    display: flex;
+justify-content: space-between;
+margin-bottom: 80px
+}
+
+.titleP {
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+color: black;
+}
+
+.titleComment {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #5D6C7B;
+    }
+
+.btnBlockRigth {
+    width: 90px;
+    height: 30px;
+font-size: 12px;
+font-weight: 500;
+line-height: 17px;
+color: #6F73EE;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+.blockRigth {
+        display: flex;
+        flex-direction: column;
+        height: 106px;
+        justify-content: space-between;
+}
+
+.blockRigthContent {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.content {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blockBottom {
+    display: flex;
+}
+
+.blockBottomContent {
+    margin-left: 50px;
+}
+
+.inputBtn {
+    width: 140px;
+    height: 53px;
+    padding: 15px, 25px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.upperForm {
+    width: 564px;
+    display: flex;
+    justify-content: space-between;
+}
