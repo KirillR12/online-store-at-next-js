@@ -1,11 +1,6 @@
 import Image from 'next/image'
-import { Button } from 'antd'
 import styles from './styles.module.scss'
 import { CommentsOnAdvertisements } from './CommentsOnAdvertisements/CommentsOnAdvertisements'
-
- interface advertisingBannerProps {
-   className?: string
-}
 
 export const AdvertisingBanner = () => (
     <>

@@ -1,7 +1,6 @@
 'use client'
 
 import styles from './styles.module.scss'
-import { useBasket } from '../model/state/basketState'
 import { Navbar } from '@/src/widgets/Navbar/ui/Navbar'
 import { BasketContent } from './BasketContent/BasketContent'
 

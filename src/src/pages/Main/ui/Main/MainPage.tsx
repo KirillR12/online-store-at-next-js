@@ -6,7 +6,6 @@ import Image from 'next/image'
 import styles from './styles.module.scss'
 import { getAllProduct } from '@/src/shared/api/api'
 import { ProductSchema } from '../../model/types/ProductSchema'
-import { useBasket } from '../../../Basket/model/state/basketState'
 import { Loader } from '@/src/shared/ui/Loader/Loader'
 import { MainCart } from './MainCart/MainCart'
 
@@ -17,12 +16,6 @@ export const Main = () => {
         queryKey: [],
         queryFn: getAllProduct,
     })
-
-    const basket = useBasket((state) => state.addBasketItem)
-
-    const toggle = (el: ProductSchema) => {
-        basket(el)
-    }
 
     if (isError) {
         return (

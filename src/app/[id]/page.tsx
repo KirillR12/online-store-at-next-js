@@ -1,18 +1,13 @@
 'use client'
 
-import { useQuery } from 'react-query'
 import { useParams } from 'next/navigation'
-import { getOneProduct } from '@/src/shared/api/api'
 
- interface pageProps {
-   className?: string
-}
-const page = ({ className }: pageProps) => {
+const page = () => {
     const { id } = useParams()
 
     return (
         <h1>
-            ds
+            {id}
         </h1>
     )
 }

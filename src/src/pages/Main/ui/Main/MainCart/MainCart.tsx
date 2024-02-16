@@ -9,10 +9,6 @@ import { useBasket } from '@/src/pages/Basket'
    el: ProductSchema
 }
 
-interface ItemSchema {
-    item: ProductSchema
-}
-
 export const MainCart = (props: MainCartProps) => {
     const {
         el,
