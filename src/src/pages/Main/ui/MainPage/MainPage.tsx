@@ -1,11 +1,12 @@
-import { Main } from '../Main/MainPage'
-import { BlockWithDelivery } from '../ BlockWithDelivery/BlockWithDelivery'
-import { SwipperPage } from '../Swipper/Swipper'
+import {
+    AdvertisingBanner, BlockWithDelivery, MainCenterContent, SwipperSection,
+} from '@/src/entities/MainContent'
 
 export const MainPage = () => (
     <>
-        <Main />
+        <AdvertisingBanner />
+        <MainCenterContent />
         <BlockWithDelivery />
-        <SwipperPage />
+        <SwipperSection />
     </>
 )

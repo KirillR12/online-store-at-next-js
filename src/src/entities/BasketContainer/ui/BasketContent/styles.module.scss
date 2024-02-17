@@ -1,0 +1,43 @@
+.emptyBlock {
+    margin-top: 40px;
+    width: 1110px;
+    height: 323px;
+    background: #F4F7FB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    .emptyBasketBtn {
+    width: 135px;
+    height: 37px;
+    padding: 10px, 20px;
+    border-radius: 5px;
+    background: #6F73EE;
+    color: #FFF;
+    border: none;
+    }
+    
+.blockRigth {
+    width: 285px;
+    height: 367px;
+    border-radius: 5px;
+    background: #F4F7FB;
+    }
+    
+.basket {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.blockLeft {
+width: 760px;
+height: 41px;
+top: 387px;
+left: 165px;
+border-radius: 5px;
+background: #F4F7FB;
+}
+

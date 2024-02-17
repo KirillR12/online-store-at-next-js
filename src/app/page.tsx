@@ -1,11 +1,7 @@
-import { MainPage } from '@/src/pages/Main'
-import { AdvertisingBanner } from '@/src/shared/lib/AdvertisingBanner/AdvertisingBanner'
+import { App } from '@/src/app/App'
 
 export default function Home() {
     return (
-        <>
-            <AdvertisingBanner />
-            <MainPage />
-        </>
+        <App />
     )
 }

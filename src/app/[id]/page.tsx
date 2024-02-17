@@ -1,14 +1,13 @@
 'use client'
 
 import { useParams } from 'next/navigation'
+import { ItemDetali } from '@/src/pages/ ItemDetail/ItemDetali'
 
 const page = () => {
-    const { id } = useParams()
+    const params = useParams()
 
     return (
-        <h1>
-            {id}
-        </h1>
+        <ItemDetali id={params.id} />
     )
 }
 

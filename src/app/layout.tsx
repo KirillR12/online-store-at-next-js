@@ -3,9 +3,9 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { ReactNode } from 'react'
 import { AntdRegistry } from '@ant-design/nextjs-registry'
-import { QueryClientProvider, queryClient } from '../src/shared/lib/config/react-query'
-import { Header } from '@/src/widgets/Header'
+import { QueryClientProvider, queryClient } from '../src/shared/config/ReactQuery/react-query'
 import { Footer } from '@/src/widgets/Footer'
+import { Header } from '@/src/widgets/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +24,7 @@ export default function RootLayout(props: RootLayoutProps) {
     } = props
 
     return (
-        <html lang="en">
+        <html lang="ru">
             <body className={inter.className}>
                 <QueryClientProvider client={queryClient}>
                     <AntdRegistry>

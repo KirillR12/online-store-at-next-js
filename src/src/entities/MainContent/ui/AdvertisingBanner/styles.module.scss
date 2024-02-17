@@ -1,0 +1,107 @@
+.AdvertisingBanner {
+    margin: 0 30px;
+    border-radius: 10px;
+    height: 421px;
+    overflow:hidden;
+}
+
+.article {
+background-image: radial-gradient(
+        farthest-corner at 859px 454px,
+        #A6A9FF 0%,
+        #6F73EE 100%
+      );
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 100%;
+    width: 100%;
+}
+
+.imgArticle {
+    position: relative;
+    top: 225px;
+    z-index: 9;
+}
+
+.behindText {
+    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-fill-color: transparent;
+    width: 821px;
+    height: 420.27px;
+    position: relative;
+    top: -66.46000000000004px;
+    left: -226px;
+    border: 1.02px;
+    opacity: 23%;
+    font-size: 293px;
+    font-weight: 700;
+    line-height: 424px;
+}
+
+.detailsBlockCenter {
+    margin: 30px 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsBlock {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleBlockText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.articleTitle {
+    width: 633px;
+    height: 102px;
+}
+
+.articleText {
+    height: 29px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 349px;
+}
+
+.articleBtn {
+width: 177px;
+height: 53px;
+padding: 15px, 25px, 15px, 25px;
+border-radius: 5px;
+border: none;
+color: #6F73EE;
+background: #FFFFFF;
+}
+
+.articleBlockImg {
+    width: 500px;
+}
+
+.articleBlockNew {
+width: 74px;
+height: 27px;
+border-radius: 5px;
+border: 1px solid #FFF;
+background: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.articleBlockNewP {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+}

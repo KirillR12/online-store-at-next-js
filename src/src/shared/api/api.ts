@@ -32,3 +32,19 @@ export const getOneProduct = ({ queryKey }: QueryFunctionContext<string[]>) => {
         })
         .then((data) => data)
 }
+
+export const getProductsByIds = ({ queryKey }: QueryFunctionContext<Array<string[]>>) => {
+    const [idProduct] = queryKey
+    return Promise.all(idProduct.map((id: string) => fetch(`${api}/${id}`, {
+        method: 'GET',
+    })))
+        .then((resMass) => Promise.all(resMass.map((res) => {
+            if (res.status !== 200) {
+                return res.json().then((data) => {
+                    throw new Error(data.message)
+                })
+            }
+            return res.json()
+        })))
+        .then((dataMass) => dataMass)
+}
