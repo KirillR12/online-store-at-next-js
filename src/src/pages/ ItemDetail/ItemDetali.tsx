@@ -43,8 +43,7 @@ export const ItemDetali = ({ id }: ItemDetaliProps) => {
                     </div>
                     <hr />
                 </div>
-
             </div>
         )
-    }
+    } return <h1>Произошла ошибка</h1>
 }

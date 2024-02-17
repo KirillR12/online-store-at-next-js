@@ -68,9 +68,11 @@ export const MainCart = (props: MainCartProps) => {
                     </h6>
                     <div className={styles.blockBtnCard}>
                         <button className={styles.btnButton} type="button" onClick={toggleAddItem}>
-                            <img className={styles.imgIconBasket} src="/basket.svg" alt="" width={20} height={20} />
+                            {}
+                            <img className={styles.imgIconBasket} src="/basket.svg" alt="" width={20} height={20} id="btn" />
                         </button>
                         <button className={styles.btnButton} type="button" onClick={toggleAddItem}>
+                            {}
                             <img className={styles.imgIconBasket} src="/heart.svg" alt="" width={20} height={20} />
                         </button>
                     </div>
