@@ -30,3 +30,11 @@
     display: flex;
     justify-content: center;
   }
+
+  .imgBlock {
+    &:hover {
+      filter: blur(10px);
+      content: " Producto ";
+      visibility: visible;
+    }
+  }

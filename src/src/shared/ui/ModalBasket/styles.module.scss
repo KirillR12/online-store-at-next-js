@@ -7,7 +7,7 @@
     left: 1073px;
     border-radius: 5px;
     border: 1px solid #ECF3FF;
-    background: black;
+    background: #FFF;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,9 @@ align-items: center;
     background: #FFF;
     z-index: 20;
     box-shadow: 0 30px 150px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btnMiddle {
@@ -41,4 +44,5 @@ align-items: center;
     color: #FFF;
     display: flex;
     align-items: center;
+    width: 50%;
 }

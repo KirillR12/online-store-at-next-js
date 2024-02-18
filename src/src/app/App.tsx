@@ -1,5 +1,6 @@
-import { MainPage } from '../pages/Main'
+import { memo } from 'react'
+import { MainPage } from '../pages/MainPage'
 
-export const App = () => (
+export const App = memo(() => (
     <MainPage />
-)
+))

@@ -1,4 +1,5 @@
-export { SwipperSection } from './ui/Swipper/SwipperSection'
+export { MainCart } from './ui/MainCart/MainCart'
+export { SwipperSection } from './ui/Swipper/SwipperSection/SwipperSection'
 export { BlockWithDelivery } from './ui/ BlockWithDelivery/BlockWithDelivery'
 export { AdvertisingBanner } from './ui/AdvertisingBanner/AdvertisingBanner'
 export { MainCenterContent } from './ui/MainCenterContent/MainCenterContent'

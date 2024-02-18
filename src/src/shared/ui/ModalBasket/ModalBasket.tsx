@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { memo } from 'react'
 import styles from './styles.module.scss'
 import { Portal } from '../Portal/Portal'
 
@@ -7,7 +8,7 @@ import { Portal } from '../Portal/Portal'
     quantityBasket: number
 }
 
-export const ModalBasket = (props: ModalProps) => {
+export const ModalBasket = memo((props: ModalProps) => {
     const {
         state,
         quantityBasket,
@@ -21,6 +22,7 @@ export const ModalBasket = (props: ModalProps) => {
                         <h6 className={styles.btnText}>В вашей корзине</h6>
                         <p>{`${quantityBasket}  товаров`}</p>
                     </div>
+                    <h3>Заглушка</h3>
                     <div className={styles.blockContentUpper}>
                         <Link
                             href="/basket"
@@ -33,4 +35,4 @@ export const ModalBasket = (props: ModalProps) => {
             </Portal>
         )
     } return null
-}
+})

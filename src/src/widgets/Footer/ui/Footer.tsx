@@ -1,10 +1,10 @@
 import classNames from 'classnames'
-import { FC } from 'react'
+import { FC, memo } from 'react'
 import { Button } from 'antd'
 import Image from 'next/image'
 import styles from './styles.module.scss'
 
-export const Footer: FC = () => (
+export const Footer: FC = memo(() => (
     <>
         <div className={styles.upperContent}>
             <h5>
@@ -13,7 +13,7 @@ export const Footer: FC = () => (
                 КТО ПОЛУЧИТ СКИДКУ НА НОВЫЕ САМОКАТЫ
             </h5>
             <form className={styles.upperForm}>
-                <input type="text" id="text" className={styles.inputFooter} placeholder="Введите Ваш emailsdf" />
+                <input type="text" id="text" className={styles.inputFooter} placeholder="Введите Ваш email" />
                 <input type="button" value="Подписаться" className={styles.inputBtn} />
             </form>
         </div>
@@ -80,4 +80,4 @@ export const Footer: FC = () => (
             </div>
         </div>
     </>
-)
+))

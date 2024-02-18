@@ -2,13 +2,14 @@
 
 import { useQuery } from 'react-query'
 import Image from 'next/image'
+import { memo } from 'react'
 import styles from './styles.module.scss'
 import { getAllProduct } from '@/src/shared/api/api'
 import { Loader } from '@/src/shared/ui/Loader/Loader'
 import { MainCart } from '../MainCart/MainCart'
 import { ProductSchema } from '@/src/shared/lib/schema'
 
-export const MainCenterContent = () => {
+export const MainCenterContent = memo(() => {
     const {
         data, isSuccess, isLoading, isError,
     } = useQuery({
@@ -126,5 +127,5 @@ export const MainCenterContent = () => {
             </section>
         )
     }
-    return 'Произошла ошибка'
-}
+    return <h1>Произошла ошибка</h1>
+})

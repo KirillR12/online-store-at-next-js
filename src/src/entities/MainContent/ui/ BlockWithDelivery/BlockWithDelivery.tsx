@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import { memo } from 'react'
 import styles from './styles.module.scss'
 
-export const BlockWithDelivery = () => (
+export const BlockWithDelivery = memo(() => (
     <article className={styles.BlockWithDelivery}>
         <Image className={styles.imgDrone} src="/drone.svg" alt="." width={800} height={620} />
         <div className={styles.BlockWithDeliveryContent}>
@@ -20,4 +21,4 @@ export const BlockWithDelivery = () => (
             </button>
         </div>
     </article>
-)
+))

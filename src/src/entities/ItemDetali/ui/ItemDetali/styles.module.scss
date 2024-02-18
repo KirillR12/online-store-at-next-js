@@ -1,0 +1,324 @@
+.loaderBlock {
+    width: 100%;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.blockRigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1800px;
+    margin-bottom: 50px 
+}
+
+.itemDetali {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 165px;
+}
+
+.blockSwiper {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockRigthInfo {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockRigthInfoText {
+color: #5D6C7B;
+opacity: 0.7;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+}
+
+.clueBlock {
+width: 253px;
+height: 100%;
+    border-radius: 5px;
+    background: #F4F7FB;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blockPresentBlock {
+width: 475px;
+height: 140px;
+border-radius: 10px;
+background: #F4F7FB;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.finalBlock {
+    width: 475px;
+    height: 266px;
+    border-radius: 10px;
+    background: #F4F7FB;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blockBtnLower {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockBtnLowerText {
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #282739;
+margin-left: 10px;
+}
+
+.blockBtnLowerBtn {
+background: none;
+border: none;
+display: flex;
+align-items: center;
+}
+
+.blockClueContant {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockRigthInfoTitle {
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #282739;
+}
+
+.blockRigthInfoClue {
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment {
+    display: flex;
+    align-items: center;
+    width: 32%;
+    justify-content: space-between;
+}
+
+.itemDetaliBtn {
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #EAEBED;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+    border: 1px solid #6F73EE;
+    }
+}
+
+.btnBlockItemDetali {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.blockEquipment {
+    display: flex;
+        width: 32%;
+        justify-content: space-between;
+}
+
+.itemDetaliSmallText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #5D6C7B;
+}
+
+.PinkButton {
+    border: none;
+    background: none;
+    color: #6F73EE;
+}
+
+.blockAboutTire {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.blockRigthInfoTextThrough {
+color: #5D6C7B;
+opacity: 0.7;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+text-decoration: line-through;
+}
+
+.blockAboutTireContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.blockBtnLowerTextTire {
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+}
+
+.blockBtnLowerTitleTire {
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.blockTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockTimeContent {
+    display: flex;
+    align-items: baseline;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.blockPresentBlockContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blockPresentLift {
+    display: flex;
+    align-items: center;
+    width: 52%;
+    justify-content: space-between;
+}
+
+.blockPresentRigth {
+    display: flex;
+    align-items: center;
+    width: 32%;
+    justify-content: space-between;
+}
+
+.blockPresentBlockTitle {
+    padding: 0 25px;
+}
+
+.ellipseViolet {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #6B7AFD;
+    margin-bottom: 8px;
+}
+
+.ellipsePink {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #FA6BFD;
+    margin-bottom: 8px;
+}
+
+.ellipseRed {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #F45A5A;
+    margin-bottom: 8px;
+}
+
+.itemDetaliLowerBtn {
+    background: #6F73EE;
+    color: #FFF;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        color: #6F73EE;
+        background: none;
+    }
+}
+
+.itemDetaliLowerFloodedBtn {
+    color: #6F73EE;
+    background: none;
+    border: 1px solid #6F73EE;
+    border-radius: 5px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background: #6F73EE;
+        color: #FFF;
+        border: none;
+    }
+}
+
+.btnButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1.3px solid #EAEBED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        border: 1px solid #6F73EE;
+    }
+    }
+
+    .hrBlock {
+    border: 1.3px solid #EAEBED;
+    }
+
+.finalBlockLower {
+        display: flex;
+    width: 63%;
+    justify-content: space-between;
+}
+
+.finalBlockBtn {
+    display: flex;
+    justify-content: space-between;
+}

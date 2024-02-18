@@ -5,9 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import {
     A11y, Autoplay, Navigation, Pagination, Scrollbar,
 } from 'swiper/modules'
+import { memo } from 'react'
 import styles from './styles.module.scss'
 
-export const AdvertisingBanner = () => (
+export const AdvertisingBanner = memo(() => (
     <>
         <div className={styles.AdvertisingBanner}>
             <Swiper
@@ -105,4 +106,4 @@ export const AdvertisingBanner = () => (
             <img src="/grade.svg" alt="." />
         </div>
     </>
-)
+))

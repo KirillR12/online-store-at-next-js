@@ -1,7 +1,9 @@
 'use client'
 
 import Image from 'next/image'
-import { FC, useCallback, useState } from 'react'
+import {
+    FC, memo, useCallback, useState,
+} from 'react'
 import { Button } from 'antd'
 import Link from 'next/link'
 import { UnorderedListOutlined } from '@ant-design/icons'
@@ -10,7 +12,7 @@ import styles from './styles.module.scss'
 import { ModalBasket } from '@/src/shared/ui/ModalBasket/ModalBasket'
 import { useItems } from '@/src/entities/BasketContainer'
 
-export const Header: FC = () => {
+export const Header: FC = memo(() => {
     const itemsLength = useItems((state) => state.itemsInCart).length
 
     const [state, setState] = useState(false)
@@ -180,4 +182,4 @@ export const Header: FC = () => {
             <ModalBasket state={stateWindow} quantityBasket={itemsLength} />
         </>
     )
-}
+})
