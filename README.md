@@ -1,20 +1,24 @@
-Это проект с использованием [Next.js](https://nextjs.org/), [zustand](https://zustand-demo.pmnd.rs/), [react-query](https://tanstack.com/query/latest), [json-server](https://github.com/typicode/json-server).
+# Интернет магазин электросамокатов (Online store of electric scooters)
 
-## Для запуска проекта: 
+Проект на Next.js/Zustand. В проекте реализованна верстка по макету, json-server для хранения данных. Несколько страниц: детальная страница, корзина, страница с товарами, шапка, футер. Работа с готовыми UI элементами из библиотеки toastify.
 
-Введите следующие команды:
+# Стек проекта:
 
-```bash
-npm install
+```Next.js```
+```Zustand```
+```React-Query```
+```Json-Server```
+```Vite```
+
+# Для запука проекта используйте:
+
+### `npm install`
 # further
-npm run server
+### `npm run server`
 # further
-npm run dev
-# further
-```
+### `npm run dev`
 
 Приложение Next.js запустить на [http://localhost:3000](http://localhost:3000).
 Json-server запустить на [http://localhost:8000](http://localhost:8000).
 
 ## Удачного просмотра!
-
