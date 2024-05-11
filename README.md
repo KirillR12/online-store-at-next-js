@@ -15,9 +15,7 @@
 # Для запука проекта используйте:
 
 ### `npm install`
-# further
 ### `npm run server`
-# further
 ### `npm run dev`
 
 Приложение Next.js запустить на [http://localhost:3000](http://localhost:3000).
