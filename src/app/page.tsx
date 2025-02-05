@@ -5,6 +5,7 @@ export default function Home() {
         <>
         <App />
         test
+        test2
         </>
     )
 }
