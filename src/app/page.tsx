@@ -10,6 +10,7 @@ export default function Home() {
 
 
         это текст 1 ветки 
+        это текст 2 ветки 
         </>
     )
 }
