@@ -6,6 +6,10 @@ export default function Home() {
         <App />
         test
         sdf;jsdjfklsdjf
+
+
+
+        это текст 1 ветки 
         </>
     )
 }
